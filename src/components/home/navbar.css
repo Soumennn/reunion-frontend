@@ -1,0 +1,60 @@
+
+/* --- NAVBAR STYLING ----- */
+
+.navbar {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+    height: 10%;
+    width: 100%;
+}
+
+.navbar .shoe-brand {
+
+    /* background: lightgoldenrodyellow; */
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.navbar .shoe-brand a {
+    text-decoration: none;
+    color: #e71a1a;
+    /* font-style: italic; */
+    letter-spacing: 0.3rem;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.navbar .search-div {
+    padding: 0.2rem;
+    /* background: lightgray; */
+    width: 70%;
+    margin: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.1rem solid  var(--border-color);
+    border-radius: 0.8rem;
+    
+
+}
+
+.navbar .search-div i {
+    padding: 0.4rem 0.4rem;
+    color: lightgray;
+    margin-left: 0.5rem;
+    
+}
+.navbar .search-div input {
+    width: 100%;
+    border-radius: 0.4rem;
+    border: none;
+    padding: 0.4rem 0.4rem;
+    outline: none;
+    box-sizing: border-box;
+    font-size:  1.1em;
+    
+}

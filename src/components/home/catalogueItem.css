@@ -1,0 +1,84 @@
+
+/* ---- STYLING FOR EACH CATALOGUE ITEM ---- */
+.catalogueItem {
+    /* background-color: rgb(236, 236, 200); */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.catalogueItem:hover {
+    background-color: rgba(242, 246, 250, 0.658);
+    transition: 0.3s;
+}
+
+
+/* ---- STYLING FOR EACH CATALOGUE ITEM'S HEADER ( BRAND AND MODEL ) ---- */
+.catalogueItem .header p {
+    padding: 0.4rem 0;
+    font-size: 0.7rem;
+    text-transform: capitalize;
+    text-align: justify;
+    font-weight: 400;
+    color: grey;
+
+}
+
+.catalogueItem > h4 {
+    padding: 0.4rem;
+}
+
+/* ---- STYLING FOR EACH CATALOGUE ITEM'S DISPLAY IMAGES ---- */
+
+.img-div {
+    padding: 1rem 0;
+    overflow: hidden;
+    margin: auto;
+}
+.img-div img {
+    width: 100%;
+
+}
+
+/* ---- STYLING FOR EACH CATALOGUE ITEM'S PRICE AND IMAGE TOGGLE SECTION---- */
+
+.bottom-info {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.price-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-div p{
+    font-weight: 400;
+    color: grey;
+}
+
+.other-images-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-1, .img-2 {
+    padding: 0.2rem;
+    margin: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.img-1 img, .img-2 img{
+
+    width: 3rem;
+    height:3rem;
+}
+
+/* ------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------- */

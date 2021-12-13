@@ -1,38 +1,80 @@
+/* IMPORTING FONT FROM GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SETTING VARIABLES TO BE USED GLOBALLY */
+:root {
+    --border-color: rgba(211, 211, 211, 0.295);
+    --label-color: #000000ce;
+    --faded-label-color: #00000075;
+}
+
+
+/* CUSTOM FONT SIZING */
+html {
+
+    font-size: 68.5%;
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+
 .App {
-  text-align: center;
+
+    height: 100vh; 
+    background: lightgrey;
+    padding:4.5rem;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width:1280px) {
+    html {
+        font-size: 57%;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* @media screen and (max-width:930px) {
+    html {
+        font-size: 57%;
+    }
+
+} */
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 49%;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width:500px) {
+    
+    html {
+        font-size: 50%;
+    }
+    .App {
+        padding: 1rem;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width:340) {
+    html {
+        font-size: 40%
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media screen and (max-width:290) {
+    html {
+        font-size: 20%
+    }
 }

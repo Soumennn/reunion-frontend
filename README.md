@@ -5,8 +5,8 @@ The details for the app are provided below
 
 ## Technologies used
 `Frontend:` \
--React, HTML & CSS
-`Icon Library:` \
+- React, HTML & CSS \
+`Icon Library:` 
 - [fontawesome](https://fontawesome.com)
 
 ## About the app

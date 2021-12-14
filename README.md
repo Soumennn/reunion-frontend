@@ -4,7 +4,7 @@ This is an assignment done for REUNION.\
 The details for the app are provided below
 
 ## Technologies used
-`Frontend:` \
+`Frontend:` 
 - React, HTML & CSS \
 `Icon Library:` 
 - [fontawesome](https://fontawesome.com)

@@ -4,10 +4,9 @@ This is an assignment done for REUNION.\
 The details for the app are provided below
 
 ## Technologies used
-`Frontend:` 
-- React, HTML & CSS \
-`Icon Library:` 
-- [fontawesome](https://fontawesome.com)
+
+`Frontend:`  - React, HTML & CSS \
+`Icon Library:` - [fontawesome](https://fontawesome.com) 
 
 ## About the app
 
@@ -24,4 +23,4 @@ The details for the app are provided below
 The app is made responsive using media queries.
 
 
-##`App Link:` [Reunion-frontend](https://reunion-frontend-soumen.netlify.app/)
+`##App Link:` [Reunion-frontend](https://reunion-frontend-soumen.netlify.app/)
